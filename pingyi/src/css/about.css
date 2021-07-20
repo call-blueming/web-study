@@ -1,0 +1,128 @@
+.main-top .text-a {
+  font-family: SimSun;
+  font-size: 25px;
+  color: #7a7a7a;
+  margin-top: 60px;
+  text-align: center;
+}
+.main-top {
+  position: relative;
+}
+.main-top .line-a {
+  width: 380px;
+  height: 2px;
+  background-color: #cbcbcb;
+  position: absolute;
+  left: 598px;
+}
+
+.main-top .line-b {
+  width: 380px;
+  height: 2px;
+  background-color: #cbcbcb;
+  position: absolute;
+  left: 20px;
+}
+.main-top .text-b {
+  color: #d43b33;
+  font-size: 18px;
+  text-align: center;
+}
+.main-top .article {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 42px;
+  line-height: 28px;
+}
+.main-top .article .text-c {
+  font-weight: 700;
+}
+.mid {
+  background: url(../imgs/index_02.png);
+  height: 450px;
+  width: 100%;
+  margin-top: 68px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  position: relative;
+  background-size: 1500px 400px;
+}
+.mid .user .block {
+  font-size: 16px;
+  font-weight: 400;
+}
+.mid .user .red {
+  color: #d43b33;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 2px;
+}
+.mid .we {
+  margin-top: 15px;
+}
+.mid .we ul li {
+  width: 380px;
+  border-bottom: 1px solid #bebebe;
+  line-height: 28px;
+}
+
+.mid .photo img {
+  position: absolute;
+  right: 300px;
+  bottom: 110px;
+}
+.mid .we p {
+  font-weight: 700;
+  font-size: 12px;
+}
+.mid .we .weight {
+  font-weight: 700;
+  color: #000000;
+}
+.main {
+  padding: 0 0 122px 0;
+}
+.main .size {
+  text-align: center;
+}
+.main .midtext {
+  text-align: center;
+}
+.main .size p:nth-child(1) {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 6px;
+}
+.main .size p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+.midtext {
+  margin: 40px 0 30px 0;
+}
+.main .table ul li {
+  width: 250px;
+  height: 175px;
+  background-color: #4b4b4b;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.main .table ul li p {
+  color: #ffffff;
+}
+.main .table ul li .bottom {
+  margin-top: 20px;
+}
+.main .long {
+  height: 50px;
+  background-color: #d43b33;
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+}
+.grey {
+  box-sizing: border-box;
+  padding: 40px 28px 34px 20px;
+}

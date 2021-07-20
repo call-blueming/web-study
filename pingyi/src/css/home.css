@@ -1,0 +1,265 @@
+/* mainhead头部 */
+.main-head .main-head-top .text-a {
+  font-family: SimSun;
+  font-size: 25px;
+  color: #7a7a7a;
+  margin-top: 60px;
+  text-align: center;
+}
+.main-head-top {
+  position: relative;
+}
+.line-a {
+  width: 300px;
+  height: 2px;
+  background-color: #cbcbcb;
+  position: absolute;
+  left: 105px;
+}
+
+.line-b {
+  width: 300px;
+  height: 2px;
+  background-color: #cbcbcb;
+  position: absolute;
+  left: 594px;
+}
+.main-head .main-head-top .text-b {
+  color: #d43b33;
+  font-size: 18px;
+  text-align: center;
+}
+.main-head-top .zuowen {
+  margin: 20px 0;
+  line-height: 24px;
+}
+.main-head-top p {
+  text-align: center;
+  font-size: 14px;
+  color: #686868;
+}
+.main-head-top .konw {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #666;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+  margin: 40px auto;
+}
+.main-head-top .konw:hover {
+  background-color: aqua;
+  color: #ffffff;
+}
+/* .main-head-bottom {
+  border-top: 1px solid #626262;
+} */
+.main-head-top .box-a {
+  width: 92px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #626262;
+  color: #b61717;
+  margin-right: 10px;
+  border-bottom: none;
+}
+.main-head-top .box-b {
+  width: 92px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #626262;
+  border: 1px solid #626262;
+  margin-right: 10px;
+  border-bottom: none;
+}
+.main-head-top .box-c {
+  width: 92px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #626262;
+  border: 1px solid #626262;
+  border-bottom: none;
+}
+
+.main-head-top .box {
+  height: 32px;
+  padding: 0 340px;
+  position: relative;
+}
+.main-head-top .box a {
+  color: #ffffff;
+}
+.main-head-top .box-a a {
+  color: #b61717;
+}
+.main-head-top .line-c {
+  width: 568px;
+  height: 1px;
+  background-color: #626262;
+  position: absolute;
+  top: 33px;
+  right: -1px;
+}
+.main-head-top .line-d {
+  width: 326px;
+  height: 1px;
+  background-color: #626262;
+  position: absolute;
+  top: 33px;
+  left: 15px;
+}
+/* .main-head底部 */
+.main-head-bottom {
+  padding: 40px 0 32px 110px;
+}
+.main-head-bottom p {
+  line-height: 22px;
+  font-size: 12px;
+}
+.main-head-bottom .artical {
+  margin-right: 230px;
+}
+/* mian中间 */
+.main-mid {
+  background: url(../imgs/idnex_02.png);
+  height: 100%;
+  width: 100%;
+  margin-top: -30px;
+  padding-top: 35px;
+  margin-top: 30px;
+}
+.main-mid .run {
+  font-family: SimSun;
+  font-size: 25px;
+  text-align: center;
+  color: #7a7a7a;
+}
+.main-mid .go {
+  color: #d43b33;
+  font-size: 18px;
+  font-size: 400;
+  text-align: center;
+}
+.main-mid .img {
+  margin-top: 35px;
+  position: relative;
+}
+.main-mid .img .left-png {
+  position: absolute;
+  left: -20px;
+  top: 0px;
+}
+.main-mid .img .right-png {
+  position: absolute;
+  right: 50px;
+  top: 0px;
+}
+.main-mid li {
+  height: 180px;
+  position: relative;
+  transition: all 2s;
+}
+.main-mid .img ul li .mo {
+  text-align: center;
+  width: 300px;
+  height: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  position: absolute;
+  display: none;
+  bottom: 0;
+}
+.main-mid .img li:hover .mo {
+  position: absolute;
+  bottom: 30px;
+  display: block;
+  z-index: 999;
+  height: 30px;
+}
+
+.main-mid .img .qiang {
+  height: 150px;
+  width: 310px;
+}
+.main-bottom .last {
+  padding-top: 15px;
+}
+.last-left {
+  padding-top: 28px;
+  padding-left: 20px;
+}
+.last .blue {
+  font-size: 12px;
+  font-weight: 800;
+}
+.last h3 {
+  font-size: 14px;
+  color: #d43b33;
+  margin-top: 10px;
+}
+.last p {
+  width: 460px;
+  height: 36px;
+}
+.last .section {
+  margin-top: 10px;
+}
+.last .section p {
+  border-bottom: 1px dashed #cacaca;
+  color: #000000;
+  padding-top: 12px;
+  box-sizing: border-box;
+}
+.last .big {
+  font-size: 18px;
+  margin-top: 16px;
+}
+.last-right {
+  padding-top: 28px;
+  padding-left: 20px;
+}
+.last-right input {
+  width: 210px;
+  height: 36px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #4c4c4c;
+}
+.last-right .set {
+  margin-top: 22px;
+}
+.last-right .set .submit {
+  width: 90px;
+  height: 36px;
+}
+textarea {
+  width: 430px;
+  height: 186px;
+  padding-left: 16px;
+  font-size: 14px;
+  font-family: '微软雅黑';
+  outline: none;
+}
+.lasttext {
+  margin-top: 15px;
+  font-size: 10px;
+  color: #7d7d7d;
+}
+.lasttext span {
+  color: #841c1c;
+}
+.lasttext button {
+  margin-left: 78px;
+  width: 100px;
+  height: 28px;
+  background-color: #d43b33;
+  color: #ffffff;
+  border: none;
+}

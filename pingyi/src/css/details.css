@@ -1,0 +1,45 @@
+.main {
+  padding-top: 50px;
+}
+.main .black {
+  color: #333333;
+}
+.main p {
+  line-height: 25px;
+}
+.main .orange {
+  text-align: center;
+  color: #d43b39;
+  margin-top: 65px;
+  font-size: 23px;
+}
+.main .mid {
+  text-align: center;
+  margin: 30px 0;
+}
+.main .underline {
+  border-bottom: 1px solid #f3e3c9;
+}
+.main .text-a {
+  margin: 30px 0;
+  color: #333333;
+}
+.main .text-b {
+  margin: 30px 0;
+  color: #333333;
+}
+.main .text-c {
+  margin: 30px 0 0 0;
+  color: #333333;
+}
+.main .img {
+  text-align: center;
+}
+.main .last {
+  margin-left: 5px;
+  color: #b8200d;
+  margin-bottom: 50px;
+}
+.id {
+  margin-left: 40px;
+}

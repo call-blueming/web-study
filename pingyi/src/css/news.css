@@ -1,0 +1,90 @@
+.main .center {
+  text-align: center;
+  margin-top: 55px;
+}
+.main .center h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.main .center p {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 10px 0 50px 0;
+}
+.main {
+  margin-bottom: 60px;
+}
+.main .text {
+  height: 40px;
+  width: 666px;
+  position: relative;
+  margin-left: 160px;
+}
+
+.main .text .sc {
+  position: absolute;
+  left: 140px;
+  top: 10px;
+}
+.main .text .right {
+  height: 40px;
+  width: 332px;
+  background-color: #fafafa;
+  text-align: center;
+  line-height: 40px;
+  box-sizing: border-box;
+}
+.main .text {
+  margin-bottom: 70px;
+}
+.main .list {
+  height: 940px;
+  width: 900px;
+  margin-left: 50px;
+}
+.main .list ul li {
+  width: 430px;
+  height: 200px;
+  background-color: #f2f2f2;
+}
+.main .list ul li:nth-child(2n) {
+  margin-left: 40px;
+  margin-bottom: 35px;
+}
+.main .list ul li img {
+  width: 200px;
+  height: 200px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.main .list ul li p {
+  font-size: 12px;
+}
+.main .list ul li .more {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.main .list ul li .small {
+  margin-top: 30px;
+}
+.main .cho a {
+  display: inline-block;
+  width: 35px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #d8d8d8;
+  color: #ffffff;
+}
+.main .cho .active {
+  background-color: #b50900;
+}
+.main .cho a:nth-child(1) {
+  border-radius: 10px 0 0 10px;
+}
+.main .cho a:nth-child(3) {
+  border-radius: 0 10px 10px 0;
+}

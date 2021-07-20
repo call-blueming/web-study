@@ -1,0 +1,58 @@
+.main .center {
+  text-align: center;
+  margin-top: 55px;
+}
+.main .center h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.main .center p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 0 50px 0;
+}
+.main .line {
+  width: 1000px;
+  height: 1px;
+  background-color: #e6e6e6;
+}
+.main .box1 {
+  width: 280px;
+  height: 200px;
+  text-align: center;
+  padding-top: 30px;
+}
+.main .box2 {
+  width: 280px;
+  height: 200px;
+  margin-left: 80px;
+  text-align: center;
+  padding-top: 30px;
+}
+.main .box3 {
+  width: 280px;
+  height: 200px;
+  margin-left: 80px;
+  text-align: center;
+  padding-top: 30px;
+}
+.main img {
+  vertical-align: middle;
+}
+.main .box1 p {
+  color: #343434;
+  line-height: 20px;
+}
+.main .box2 p {
+  color: #343434;
+  line-height: 20px;
+}
+.main .box3 p {
+  color: #343434;
+  line-height: 20px;
+}
+.map {
+  background: url(../imgs/map.png);
+  height: 426px;
+}

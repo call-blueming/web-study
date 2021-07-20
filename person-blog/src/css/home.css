@@ -1,0 +1,121 @@
+/* 首行的行高及背景颜色 */
+.head-top{
+    background-color: #444444;   line-height: 25px;
+}
+.head-top p a{
+    font-size: 12px;    color: #959595;   margin-left: 22px;
+}
+.head-bottom{    background-color: #ffffff;
+}
+.head-bottom img {    padding: 0;
+}
+.head-bottom ul li{   
+    font-size: 17px;    float: left;   line-height: 75px;   margin-left: 32px;    color: #666666;
+}
+
+
+.head-bottom ul li:nth-child(1){
+    margin-left: 60px;    
+}
+.bule{
+    color: #00a7ea;
+}
+
+.head-bottom input {
+    box-sizing: border-box;      float: left;    width: 170px;    height: 30px;     padding-left: 10px;   
+}
+.head-bottom button{   border: none;  float: left;    height: 30px;    width: 30px;    background:url(../images/search.png) no-repeat;
+    /* 精灵图的使用 */    transition: all 1s;    
+}
+.head-bottom button:hover{    background-position-x: -30px;    /* 水平轴相反方向移动30px */    background-color: #00a7ea;   transform: rotate(360deg);
+
+}
+/* 搜索框和按钮为一个框  设置为怪异盒子*/
+.ip{    box-sizing: border-box;    margin-top: 21px;   border: 1px solid #959595; 
+    
+}
+/* 版心图 */
+.banner{    background:url(../images/banner.jpg)no-repeat;    height: 185px;    margin-top: 14px;
+    position: relative;
+}
+.ban{
+    width: 200px;height: 60px;color: #ffffff;position: absolute;top: 30px;left: 310px;
+}
+
+.ban span{   width:50px;height: 20px;border-radius: 8px;background-color:#00a7ea ;font-size: 16px;vertical-align: middle;margin-left: 10px;
+    display: inline-block;
+}
+.ban h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.main{
+    height: 1350px;
+    padding: 15px 0 0 0; 
+}
+.main-left{
+    width: 850px;
+    
+}
+.main-right{
+    width: 330px;
+    
+}
+.main-left li{
+    height: 200px; border: 1px solid #eaeaea;margin-bottom: 18px;background-color: #ffffff;padding: 15px;box-sizing: border-box;
+    font-size: 12px; color: #666666;
+}
+.main-left li img{   width: 205px;    margin-right: 15px;
+}
+.main-left li h3{
+    font-size: 17px; color: #444444;
+}
+.main-left li .text{
+    margin: 18px 0;   
+}
+.text-a{
+    line-height: 20px;
+}
+.text span{padding-right:20px;}
+.text span i{width: 16px; height: 16px; display: inline-block;background: url(../images/icon.png)no-repeat;margin-right: 5px; }
+.text span .icon1{background-position-y: 3px;}
+.text span .icon2{background-position-y: -13px ;}
+.text span .icon3{background-position-y: -29px;}
+.text span .icon4{background-position-y: -46px;}
+.page{
+    text-align: center;
+}
+.page-a{
+    box-sizing: border-box;
+   padding-top: 22px;
+   position: relative;
+   top: 0;
+   left: 20px;
+}
+.page-a a{ margin-left: 10px;}
+.page a{
+    display: inline-block;width: 40px;height: 40px;border-radius: 5px;background-color: #ffffff;text-align: center;line-height: 40px;margin: 0 3px;
+}
+.main-left .page .active:hover{
+    background-color: aqua;
+    color: #ffffff;
+}
+.main-right {border: 1px solid #eaeaea; background-color: #ffffff;padding: 0 13px; box-sizing: border-box;}
+.main-right h3{font-size: 20px;line-height: 55px;border-bottom: 1px solid #eaeaea;}
+.main-right .classify  ul{margin-top: 15px;}
+.main-right .classify  li{float: left; width: 146px;height: 35px;background-color:#eaeaea;  font-size: 12px;   text-align: center ; line-height: 35px;margin-bottom: 3px;color: #666666; }
+.main-right .classify li:nth-child(2n-1){  margin-right: 10px; }
+.main-right .tagisfy ul{margin-top: 15px;}
+/* ul与上面的间距 */
+.main-right .tagisfy  li{float: left; width: 146px;height: 35px;background-color:#eaeaea;  font-size: 12px;   text-align: center ; line-height: 35px;margin-bottom: 3px;color: #666666; }
+.main-right  .tagisfy li:nth-child(2n-1){  margin-right: 10px; }
+.news ul li{height: 50px; line-height: 50px; border-bottom:1px dashed #eaeaea;}
+.box{width: 52px;height: 20px;background-color: #00a7ea;line-height: 20px;text-align: center;margin-right: 10px;line-height: 20px;margin-top: 14px;color: #ffffff;position: relative;}
+/* 在盒子后面设置伪元素，设置其边框颜色，以定位的方式移入 */
+.box::after{ content: "";display: block; width: 0;height: 0;border: 4px solid #00a7ea;border-color: transparent  transparent transparent #00a7ea;position: absolute;top: 7px;left: 52px;  
+}
+.news p{font-size: 12px;color: #666666;}
+.foot p{text-align: center;line-height: 24px;}
+.foot{margin-top: 70px;background-color: #ffffff;}
+.foot .bold{font-size: 18px;}

@@ -1,0 +1,47 @@
+/* 样式重置css */
+/* 清除 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #686868;
+}
+
+ul {
+  list-style: none;
+  /* 清除列表前面样式 */
+}
+
+img {
+  vertical-align: middle;
+  /* 底部4px间隙 */
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+/* 设置: 根据网站设置 */
+body {
+  background-color: #ffffff;
+  font-family: '微软雅黑';
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  /* 跟body字体一样大 */
+}
+
+a {
+  text-decoration: none;
+  color: #131313;
+}

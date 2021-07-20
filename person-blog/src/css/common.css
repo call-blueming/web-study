@@ -1,0 +1,23 @@
+/* 版心 */
+.container{ width: 1200px; margin: 0 auto; }
+
+/* 测试工具 */
+.bd{ border: 1px solid red;}
+
+/* float */
+.fl{ float: left; }
+.fr{ float: right; }
+.clearfix::after{ content: ''; height: 0; display: block; clear: both }
+
+/* bg-color 背景色 */
+.bgc000{ background-color: #000}
+.bgcfff{ background-color: #fff}
+
+/* color 文字颜色 */
+.cf60{ color: #f60; }
+
+/* margin */
+.mt30{ margin-top: 30px; }
+.mb50{ margin-bottom: 50px;}
+
+

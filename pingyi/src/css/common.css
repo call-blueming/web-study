@@ -1,0 +1,117 @@
+/* 公共属性 */
+/* 版心 */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* 测试工具 */
+.bd {
+  border: 1px solid red;
+}
+
+/* float */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::after {
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+/* bg-color 背景色 */
+.bgc000 {
+  background-color: #000;
+}
+
+.bgcfff {
+  background-color: #fff;
+}
+
+/* color 文字颜色 */
+.cf60 {
+  color: #f60;
+}
+
+/* margin */
+.mt30 {
+  margin-top: 30px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+/* 公共样式 */
+/* 头部 */
+.head {
+  height: 74px;
+  background-color: #d43b33;
+  width: 100%;
+}
+
+.head ul li {
+  line-height: 74px;
+  margin-right: 22px;
+}
+
+.head ul li a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* 背景图 */
+.banner {
+  background: url(../imgs/banner.png);
+  height: 280px;
+}
+.foot {
+  height: 317px;
+  width: 100%;
+  background-color: #2a2a2a;
+  position: relative;
+}
+.foot img {
+  position: absolute;
+  top: 55px;
+  left: 450px;
+}
+.lp {
+  width: 560px;
+  height: 146px;
+
+  position: absolute;
+  display: inline-block;
+  left: 670px;
+  top: 55px;
+  font-size: 10px;
+  color: #ffffff;
+  padding-left: 16px;
+}
+.big {
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+.foot .fix {
+  margin-top: 56px;
+  color: #979797;
+}
+.foot .lp p:nth-child(1) {
+  color: #fcf8f8;
+}
+.foot .lp p:nth-child(2) {
+  color: #fcf8f8;
+}
+.foot .lp p:nth-child(3) {
+  color: #fcf8f8;
+}
+.foot .lp p:nth-child(2) {
+  margin-bottom: 6px;
+}
